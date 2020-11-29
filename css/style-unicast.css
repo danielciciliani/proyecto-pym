@@ -1,0 +1,282 @@
+
+html{
+    margin: 0 auto;
+}
+body{
+    margin: 0 auto;
+}
+
+h1{
+    color: white;
+}
+
+h1, p, h3 {
+  cursor: default !important;
+}
+
+.barra {
+  background-color: white;
+  /* display: inline-block; */
+  width: 30%;
+  position: absolute;
+  top: 0vh;
+  left: 70%;
+  display: flex;
+  background: transparent;
+  z-index: 12;
+}
+
+.encabezado {
+  width: 100%;
+  text-align: center;
+  position: relative;
+  z-index: 10;
+  background: white;
+}
+.logo img{
+  box-shadow: 20px 20px 25px -2px black;
+  height: 150px;
+  background-color: white;
+}
+.logo:hover{
+  padding: 0.2%;
+}
+.repre{
+  color: black;
+}
+.pym{
+  width: 90%;
+  margin-left: 10%;
+}
+.pym:hover{
+  padding: 1%;
+}
+header{
+  height: 140px;
+  text-align: center;
+}
+nav ul {
+  margin-right: 2%;
+  padding: 2% 1% 1px 1%;
+  text-align: right;
+  /* margin-left: 50%; */
+  margin-top: 2%;
+}
+nav ul li{
+  display: inline-block;
+}
+nav ul li a{
+  padding: 0px;
+  color:#eb7d05;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+#representante {
+  color: black;
+  padding-left: 40px;
+}
+.petroleo {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:center;
+  background-image: url(../img/fire3.jpg);
+  opacity: 0.9;
+}
+.titulos{
+    margin-top: 20px;
+}
+.detalle{
+    margin-top: 20px;
+}
+.centered{
+  width: 100%;
+  padding: 30px 0%;
+  background: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 50%;
+  text-align: center;
+  height: 200px;
+  transition: 1s;
+  z-index: 4;
+}
+.centered:hover{
+  background: rgba(0, 0, 0, 0.4);
+  /* height: 300px; */
+  transition: 1s;
+}
+h3{
+  color: #052B6B;
+}
+
+.info{
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+.direccion{
+  padding-top: 50px;
+}
+.dire{
+  text-align: center;
+  padding-top: 50px;
+}
+.contact{
+  text-align: center;
+  padding-top: 50px;
+}
+.carro{
+  height:50%
+  width: 100%;;
+}
+.divpie{
+	text-align: center;
+	padding-top: 20px;
+	width: 30%; 
+	display: inline-block; 
+  vertical-align: middle;
+  margin-left: 2%;
+  font-size: 1.3em;
+}
+.divpie h3{
+  color: white;
+}
+.divpie a{
+  text-decoration: none;
+  color: white;
+}
+.divpie a:hover{
+  color: #eb7d05 !important;
+}
+html {
+  scroll-behavior: smooth;
+}
+.pie{
+	width: 100%;
+	margin-top: 100px;
+	background: #eb7d05;
+  color: black;
+}
+nav ul li a:hover{
+  color:#052B6B !important;
+  text-decoration: none;
+}
+.slider-principal{
+  margin-top: 0px;
+}
+.google-maps{
+  display: none;
+}
+.pie{
+	width: 100%;
+	margin-top: 0px;
+	background: black;
+  color: white;
+}
+.representante h3{
+  color: black;
+  text-align: center;
+  margin-top: 35px;
+  padding-bottom: 20px;
+}
+.representante img{
+  box-shadow: 15px 15px 30px -6px black;  
+  margin-top: 20px;
+  width: 20%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:center;
+}
+.logopym{
+  text-align: center;
+}
+.representante img:hover{
+  padding: 0.1%;
+}
+.container_parallax{
+  position: fixed;
+  z-index: 2;
+  top: 0vh;
+  left: 0%;
+  width: 100%;
+}
+.parallax2{
+  /* background-image: url(../img/la-empresa.png); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.subtitulo{
+  visibility: hidden; 
+  font-size: 1.2em; 
+  text-align: center; 
+  width: 50%;
+  margin-left: 25%; 
+  color: white;
+}
+
+.reptitulo h3:hover{
+  color: #052B6B !important;
+  text-decoration: none;
+}
+.reptitulo a{
+  /* color:#052B6B !important; */
+  text-decoration: none;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+   .divpie{
+    width: 96%;
+   }
+   .logo{
+    text-align: center;
+   }
+   .representante img {
+    width: 60%;
+    margin-left: 20%;
+   }
+   
+}
+@media screen and (max-width: 1024px) {
+   .divpie{
+    width: 96%;
+   }
+   .barra{
+    display: none;
+   }
+   
+   h1 {
+    width: 80%;
+    margin-left: 10%;
+  }
+   .subtitulo{
+    width: 98%;
+    margin-left: 1%;
+   }
+   .centered {
+    height: 300px;
+   }
+    .barra{
+     display: none;
+    }
+    .encabezado{
+     text-align: center;
+     display: block;
+     padding-top: 20px;
+     width: 100%;
+     margin-left: 0%;
+    }
+    .logo img {
+      height: 95px;
+    }
+    header {
+      height: 80px;
+    }
+    .representante img {
+      width: 70%;
+    }
+ }
+ 
